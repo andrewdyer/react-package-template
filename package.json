@@ -57,5 +57,8 @@
         "singleQuote": true,
         "tabWidth": 4,
         "trailingComma": "none"
-    }
+    },
+    "files": [
+        "dist"
+    ]
 }
