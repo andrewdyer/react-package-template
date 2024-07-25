@@ -4,9 +4,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:cjs": "tsc --project tsconfig.cjs.json",
+    "build:esm": "tsc --project tsconfig.esm.json",
+    "build:types": "tsc --project tsconfig.types.json",
+    "build": "npm run build:cjs && npm run build:esm && npm run build:types"
   },
   "keywords": [],
   "author": "Andrew Dyer (https://github.com/andrewdyer)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
 }
