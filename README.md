@@ -2,6 +2,20 @@
 
 A template for creating React packages.
 
+## Getting Started
+
+To install this packages use npm or yarn:
+
+```bash
+npm install @your-scope/react-package-template
+```
+
+or
+
+```bash
+yarn add @your-scope/react-package-template
+```
+
 ## Available Scripts
 
 ### `npm run build`
