@@ -6,7 +6,9 @@
         "strict": true,
         "moduleResolution": "node",
         "esModuleInterop": true,
-        "skipLibCheck": true
+        "skipLibCheck": true,
+        "types": ["jest", "@testing-library/jest-dom"]
     },
-    "include": ["src"]
+    "include": ["src"],
+    "exclude": ["**/*.test.tsx"]
 }
