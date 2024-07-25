@@ -1,5 +1,7 @@
 # React Package Template
 
+A template for creating React packages.
+
 ## Available Scripts
 
 ### `npm run format`
