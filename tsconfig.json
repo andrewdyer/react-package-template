@@ -10,5 +10,5 @@
         "types": ["jest", "@testing-library/jest-dom"]
     },
     "include": ["src"],
-    "exclude": ["**/*.test.tsx"]
+    "exclude": ["**/*.stories.tsx", "**/*.test.tsx"]
 }
