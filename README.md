@@ -4,6 +4,12 @@ A template for creating React packages.
 
 ## Available Scripts
 
+### `npm run build`
+
+Builds production files in your `dist/` folder.
+
+It generates CommonJS, ES Modules, as well as TypeScript declaration files.
+
 ### `npm run format`
 
 Formats the code, according to predefined rules in the `package.json`, using the code formatter tool Prettier to you ensure that your code follows a consistent style throughout your project - making it easier to read and maintain.
