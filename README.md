@@ -4,7 +4,7 @@ A template for creating React packages.
 
 ## Getting Started
 
-To install this packages use npm or yarn:
+To install this packages use either npm or yarn:
 
 ```bash
 npm install @your-scope/react-package-template
@@ -15,6 +15,54 @@ or
 ```bash
 yarn add @your-scope/react-package-template
 ```
+
+## Local Development
+
+Yalc is a tool for managing local development of npm packages. It allows you to work on this package locally and test it in other projects without publishing to the npm registry.
+
+To use yalc, you need to install it globally on your machine. You can do this using npm:
+
+```bash
+npm install yalc -g
+```
+
+Once you have installed yalc, you can start publishing and installing this package in a local environment.
+
+### Publishing Your Package
+
+To publish this package with yalc, navigate to the root directory and run the following command:
+
+```bash
+yalc publish
+```
+
+This will publish the package to a local yalc store and you can now install it in another project using yalc.
+
+### Installing Your Package
+
+To install this package with yalc, navigate to the project directory where you want to use the package and run the following command:
+
+```bash
+yalc add @your-scope/react-package-template
+```
+
+This will install the package from the local yalc store. You can now use it in the project as you would with any other npm package.
+
+### Updating Your Package
+
+To update this package with yalc, navigate to the package directory, make your changes, and then run the following command to publish the updated package:
+
+```bash
+yalc publish --push
+```
+
+This will update the package in the local yalc store. To apply these updates in your project, navigate to the project directory and run:
+
+```bash
+yalc update @your-scope/react-package-template
+```
+
+This will update the installed version of this package in the project.
 
 ## Available Scripts
 
