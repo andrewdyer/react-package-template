@@ -13,6 +13,7 @@
         "build": "npm run clean && npm run build:cjs && npm run build:esm && npm run build:types",
         "clean": "rimraf dist",
         "format": "prettier --write .",
+        "prepare": "npm run build",
         "storybook": "storybook dev -p 6006",
         "test": "jest",
         "test:watch": "jest --watch",
