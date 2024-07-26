@@ -18,7 +18,12 @@
         "yalc:publish": "yalc publish",
         "yalc:push": "yalc push"
     },
-    "keywords": [],
+    "keywords": [
+        "react",
+        "package",
+        "template",
+        "typescript"
+    ],
     "author": "Andrew Dyer (https://github.com/andrewdyer)",
     "license": "MIT",
     "devDependencies": {
