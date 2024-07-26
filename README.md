@@ -66,14 +66,6 @@ Generates TypeScript declaration files.
 
 Removes the `dist/` folder to ensure a clean build.
 
-### `npm run yalc:publish`
-
-Publishes the package to the local Yalc store for local development.
-
-### `npm run yalc:push`
-
-Publishes updates to the package in the local Yalc store and pushes the changes to linked projects.
-
 ### `npm run format`
 
 Formats the code using Prettier according to the rules defined in package.json.
@@ -89,3 +81,11 @@ Builds Storybook as a static web application. Useful for deploying to a static h
 ### `npm run test`
 
 Runs the test suite for the project using Jest.
+
+### `npm run yalc:publish`
+
+Publishes the package to the local Yalc store for local development.
+
+### `npm run yalc:push`
+
+Publishes updates to the package in the local Yalc store and pushes the changes to linked projects.
