@@ -4,19 +4,15 @@ A template for creating React packages.
 
 ## Getting Started
 
-To install this packages use either npm or yarn:
+To install this package use npm:
 
 ```bash
 npm install @your-scope/react-package-template
 ```
 
-or
-
-```bash
-yarn add @your-scope/react-package-template
-```
-
 ## Local Development
+
+For local development, use Yalc to install this package in your project.
 
 Yalc is a tool for managing local development of npm packages. It allows you to work on this package locally and test it in other projects without publishing to the npm registry.
 
@@ -26,37 +22,19 @@ To use yalc, you need to install it globally on your machine. You can do this us
 npm install yalc -g
 ```
 
-Once you have installed yalc, you can start publishing and installing this package in a local environment.
+### Installing the Package with Yalc
 
-### Publishing Your Package
-
-To publish this package with yalc, navigate to the root directory and run the following command:
-
-```bash
-yalc publish
-```
-
-This will publish the package to a local yalc store and you can now install it in another project using yalc.
-
-### Installing Your Package
-
-To install this package with yalc, navigate to the project directory where you want to use the package and run the following command:
+First, navigate to the project directory where you want to use this package and run:
 
 ```bash
 yalc add @your-scope/react-package-template
 ```
 
-This will install the package from the local yalc store. You can now use it in the project as you would with any other npm package.
+This will install the package from the local Yalc store. You can now use it in the project as you would with any other npm package.
 
-### Updating Your Package
+### Updating the Package with Yalc
 
-To update this package with yalc, navigate to the package directory, make your changes, and then run the following command to publish the updated package:
-
-```bash
-yalc publish --push
-```
-
-This will update the package in the local yalc store. To apply these updates in your project, navigate to the project directory and run:
+After publishing changes to this package to the local Yalc store, navigate to the project directory and run:
 
 ```bash
 yalc update @your-scope/react-package-template
@@ -66,40 +44,48 @@ This will update the installed version of this package in the project.
 
 ## Available Scripts
 
+In the project directory, you can run:
+
 ### `npm run build`
 
-Builds production files in your `dist/` folder.
+Builds production files in your `dist/` folder. It generates CommonJS, ES Modules, as well as TypeScript declaration files.
 
-It generates CommonJS, ES Modules, as well as TypeScript declaration files.
+### `npm run build:cjs`
 
-### `npm run format`
+Builds CommonJS (CJS) modules for the project.
 
-Formats the code, according to predefined rules in the `package.json`, using the code formatter tool Prettier to you ensure that your code follows a consistent style throughout your project - making it easier to read and maintain.
+### `npm run build:esm`
 
-See the official [Prettier](https://prettier.io) website for more information and docs.
+Builds ES Modules (ESM) for the project.
 
-### `npm run storybook`
+### `npm run build:types`
 
-Runs the Storybook component explorer, a development environment for UI components.
+Generates TypeScript declaration files.
 
-Open [http://localhost:6006](http://localhost:6006) to view it in the browser.
+### `npm run clean`
 
-Storybook allows you to build, test, and showcase your components in isolation, making it easier to develop and iterate on them. It provides a user-friendly interface where you can view and interact with your components in different states and configurations. This helps you ensure that your components are working correctly and visually appealing before integrating them into your application.
-
-See the official [Storybook](https://storybook.js.org) website for more information and docs.
-
-### `npm run build-storybook`
-
-Builds Storybook as a static web application.
-
-This is useful when you want to deploy your Storybook to a static hosting service, or when you want to share your Storybook with others without requiring them to run the Storybook server.
-
-You can provide additional flags to customize the command. Read more about the flag options [here](https://storybook.js.org/docs/api/cli-options).
-
-### `npm run test`
-
-Runs the test suite for the project.
+Removes the `dist/` folder to ensure a clean build.
 
 ### `npm run yalc:publish`
 
+Publishes the package to the local Yalc store for local development.
+
 ### `npm run yalc:push`
+
+Publishes updates to the package in the local Yalc store and pushes the changes to linked projects.
+
+### `npm run format`
+
+Formats the code using Prettier according to the rules defined in package.json.
+
+### `npm run storybook`
+
+Runs the Storybook component explorer. Open http://localhost:6006 to view it in the browser.
+
+### `npm run build:storybook`
+
+Builds Storybook as a static web application. Useful for deploying to a static hosting service or sharing with others.
+
+### `npm run test`
+
+Runs the test suite for the project using Jest.
