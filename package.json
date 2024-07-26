@@ -14,7 +14,9 @@
         "clean": "rimraf dist",
         "format": "prettier --write .",
         "storybook": "storybook dev -p 6006",
-        "test": "jest"
+        "test": "jest",
+        "yalc:publish": "yalc publish",
+        "yalc:push": "yalc push"
     },
     "keywords": [],
     "author": "Andrew Dyer (https://github.com/andrewdyer)",

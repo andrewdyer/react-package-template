@@ -99,3 +99,7 @@ You can provide additional flags to customize the command. Read more about the f
 ### `npm run test`
 
 Runs the test suite for the project.
+
+### `npm run yalc:publish`
+
+### `npm run yalc:push`
