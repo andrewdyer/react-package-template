@@ -82,6 +82,14 @@ Builds Storybook as a static web application. Useful for deploying to a static h
 
 Runs the test suite for the project using Jest.
 
+### `npm run test:watch`
+
+Runs the test suite in watch mode, re-running tests when files change.
+
+### `npm run test:coverage`
+
+Runs the test suite and generates a coverage report.
+
 ### `npm run yalc:publish`
 
 Publishes the package to the local Yalc store for local development.
