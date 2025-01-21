@@ -8,6 +8,10 @@ A template for creating React packages.
 
 Licensed under the [MIT license](https://opensource.org/licenses/MIT) and is free for private or commercial projects.
 
+## ✨ Introduction
+
+This template is designed to provide a solid foundation to help you hit the ground running and save valuable time when starting a new React package. With all the necessary tools and configurations included, you can focus on building your package without worrying about the initial setup.
+
 ## 🛠️ Features
 
 This template includes the following tools and configurations:
