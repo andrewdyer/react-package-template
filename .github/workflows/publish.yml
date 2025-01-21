@@ -14,14 +14,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-          registry-url: 'https://registry.npmjs.org/'
-
-      - name: Install dependencies
-        run: npm ci
+      - name: Prepare repository
+        uses: ./.github/actions/prepare
 
       - name: Publish package
         run: npm publish --provenance --access public
