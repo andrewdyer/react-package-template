@@ -2,7 +2,7 @@
 
 # React Package Template
 
-A template for creating React packages.
+A template for creating [React](https://react.dev/) packages.
 
 ## 📄 License
 
