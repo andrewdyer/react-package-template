@@ -70,3 +70,16 @@ Use the following commands as needed to build and preview the project:
     - Generate TypeScript declaration files with `npm run build:types`.
     - Clean the `dist/` folder to ensure a clean build with `npm run clean`.
 - Generate a static Storybook build with `npm run build:storybook`.
+
+## Publishing
+
+To enable automated publishing of new releases to npm, you need to create and configure an npm token.
+
+1. Log in to your npm account.
+2. Navigate to **Access Tokens** in your npm account settings.
+3. Generate a new token with the **Automation** option (recommended if you have 2FA enabled).
+4. Add the token to this repository's GitHub secrets:
+    - Go to **Settings > Secrets and variables > Actions**.
+    - Add a new secret named `NPM_TOKEN` and paste your npm token.
+
+Once this is done, GitHub Actions will automatically publish the package to npm whenever a new release is created.
