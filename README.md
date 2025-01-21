@@ -39,20 +39,20 @@ Once you've created your package, follow these steps to get up and running:
 
 1. **Clone Your Repository**
 
-    Clone your repository and navigate into the package directory:
+   Clone your repository and navigate into the package directory:
 
-    ```bash
-    git clone https://github.com/YOUR_USERNAME/YOUR_PACKAGE.git
-    cd YOUR_PACKAGE
-    ```
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/YOUR_PACKAGE.git
+   cd YOUR_PACKAGE
+   ```
 
 2. **Install Dependencies**
 
-    Ensure you have the [required tools](#-prerequisites) installed and then run:
+   Ensure you have the [required tools](#-prerequisites) installed and then run:
 
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 Now you can start building your package - happy coding! 🎉
 

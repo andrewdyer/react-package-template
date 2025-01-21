@@ -24,8 +24,8 @@ To get started with contributing, set up the project by following these steps:
 
 1. Begin by cloning the repository and navigating to its directory.
 2. Use the correct Node.js version specified in [.nvmrc](.nvmrc):
-    - Install `nvm` if you haven't already. Follow the instructions on the [nvm GitHub repository](https://github.com/nvm-sh/nvm).
-    - Run `nvm use` to switch to the required Node.js version.
+   - Install `nvm` if you haven't already. Follow the instructions on the [nvm GitHub repository](https://github.com/nvm-sh/nvm).
+   - Run `nvm use` to switch to the required Node.js version.
 3. Install all project dependencies to ensure a complete setup with `npm install`.
 4. Start Storybook using `npm run storybook` to develop and test UI components in isolation.
 5. Run tests with `npm test` to verify that the environment is working correctly. You can also use `npm run test:watch` to run the tests in watch mode, and `npm run test:coverage` to generate a coverage report.
@@ -75,10 +75,10 @@ Ensure tests are clear, reusable, and easy to maintain before submitting changes
 Use the following commands as needed to build and preview the project:
 
 - Build the project with `npm run build`, which generates CommonJS, ES Modules, as well as TypeScript declaration files in the `dist/` folder.
-    - Build CommonJS (CJS) modules for the project with `npm run build:cjs`.
-    - Build ES Modules (ESM) for the project with `npm run build:esm`.
-    - Generate TypeScript declaration files with `npm run build:types`.
-    - Clean the `dist/` folder to ensure a clean build with `npm run clean`.
+  - Build CommonJS (CJS) modules for the project with `npm run build:cjs`.
+  - Build ES Modules (ESM) for the project with `npm run build:esm`.
+  - Generate TypeScript declaration files with `npm run build:types`.
+  - Clean the `dist/` folder to ensure a clean build with `npm run clean`.
 - Generate a static Storybook build with `npm run build:storybook`.
 
 ## Local Development with Yalc
@@ -101,7 +101,7 @@ To enable automated publishing of new releases to npm, you need to create and co
 2. Navigate to **Access Tokens** in your npm account settings.
 3. Generate a new token with the **Automation** option (recommended if you have 2FA enabled).
 4. Add the token to this repository's GitHub secrets:
-    - Go to **Settings > Secrets and variables > Actions**.
-    - Add a new secret named `NPM_TOKEN` and paste your npm token.
+   - Go to **Settings > Secrets and variables > Actions**.
+   - Add a new secret named `NPM_TOKEN` and paste your npm token.
 
 Once this is done, GitHub Actions will automatically publish the package to npm whenever a new release is created.

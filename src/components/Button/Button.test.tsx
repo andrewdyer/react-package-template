@@ -3,11 +3,11 @@ import { render, screen } from '@testing-library/react';
 import Button from './Button';
 
 describe('Button', () => {
-    test('renders button component', () => {
-        render(<Button />);
+  test('renders button component', () => {
+    render(<Button />);
 
-        const buttonElement = screen.getByText(/Button/i);
+    const buttonElement = screen.getByText(/Button/i);
 
-        expect(buttonElement).toBeInTheDocument();
-    });
+    expect(buttonElement).toBeInTheDocument();
+  });
 });
