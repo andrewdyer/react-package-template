@@ -5,6 +5,7 @@ Thank you for your interest in contributing! We welcome improvements and suggest
 ## Table of Contents
 
 1. [Development Setup](#development-setup)
+2. [Using Yalc for Local Development](#using-yalc-for-local-development)
 
 ## Development Setup
 
@@ -17,3 +18,15 @@ To get started with contributing, set up the project by following these steps:
 3. Install all project dependencies to ensure a complete setup with `npm install`.
 4. Start Storybook using `npm run storybook` to develop and test UI components in isolation.
 5. Run tests with `npm test` to verify that the environment is working correctly. You can also use `npm run test:watch` to run the tests in watch mode, and `npm run test:coverage` to generate a coverage report.
+
+## Using Yalc for Local Development
+
+Use Yalc to test this package locally in other projects without publishing it to the npm registry.
+
+1. Install Yalc globally using `npm install yalc -g`.
+2. In the target project's directory, add this package with `yalc add @your-scope/react-package-template`.
+3. Publish changes to the local Yalc store by running `npm run yalc:publish` in this package's directory.
+4. Push updates to the target project with `npm run yalc:push`, which notifies the target project of the latest changes.
+5. Alternatively, manually update the package in the target project with `yalc update @your-scope/react-package-template`.
+
+Follow these steps to ensure your changes work as expected before submitting them.
