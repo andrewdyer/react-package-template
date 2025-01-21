@@ -1,6 +1,6 @@
 ![React Package Template](https://raw.githubusercontent.com/andrewdyer/andrewdyer/refs/heads/main/assets/images/covers/react-package-template.png)
 
-# React Package Template
+# 📦 React Package Template
 
 A template for creating [React](https://react.dev/) packages.
 
