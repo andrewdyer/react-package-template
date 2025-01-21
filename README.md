@@ -28,6 +28,7 @@ This template includes the following tools and configurations:
 - [Jest](https://jestjs.io/) for unit testing, along with [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) for testing React components.
 - [Storybook](https://storybook.js.org/) for building and testing UI components in isolation.
 - [Prettier](https://prettier.io/) for consistent code formatting across the codebase.
+- CI (Continuous Integration) setup with [GitHub Actions](https://github.com/features/actions) for automated package publishing to npmjs.
 
 ## 🚀 Getting Started
 
