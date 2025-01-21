@@ -4,13 +4,18 @@ Thank you for your interest in contributing! We welcome improvements and suggest
 
 ## Table of Contents
 
-1. [Development Setup](#development-setup)
-2. [Coding Standards](#coding-standards)
-3. [Commit Guidelines](#commit-guidelines)
-4. [Testing](#testing)
-5. [Building](#building)
-6. [Local Development with Yalc](#local-development-with-yalc)
-7. [Publishing](#publishing)
+1. [Code of Conduct](#code-of-conduct)
+2. [Development Setup](#development-setup)
+3. [Coding Standards](#coding-standards)
+4. [Commit Guidelines](#commit-guidelines)
+5. [Testing](#testing)
+6. [Building](#building)
+7. [Local Development with Yalc](#local-development-with-yalc)
+8. [Publishing](#publishing)
+
+## Code of Conduct
+
+Please adhere to our [Code of Conduct](./CODE_OF_CONDUCT.md) in all interactions. Respectful and inclusive behavior is expected from all contributors.
 
 ## Development Setup
 
