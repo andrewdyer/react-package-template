@@ -38,11 +38,11 @@ Once you've created your package, follow these steps to get up and running:
 
 1. **Clone Your Repository**
 
-    Clone your repository and navigate into the project directory:
+    Clone your repository and navigate into the package directory:
 
     ```bash
-    git clone https://github.com/YOUR_USERNAME/YOUR_PROJECT.git
-    cd YOUR_PROJECT
+    git clone https://github.com/YOUR_USERNAME/YOUR_PACKAGE.git
+    cd YOUR_PACKAGE
     ```
 
 2. **Install Dependencies**
@@ -59,4 +59,4 @@ Now you can start building your package - happy coding! 🎉
 
 ## 🤝 Contributing
 
-Before contributing to this project, please refer to the [contributing](./CONTRIBUTING.md) documentation.
+Before contributing to this package, please refer to the [contributing](./CONTRIBUTING.md) documentation.
