@@ -19,6 +19,14 @@ To get started with contributing, set up the project by following these steps:
 4. Start Storybook using `npm run storybook` to develop and test UI components in isolation.
 5. Run tests with `npm test` to verify that the environment is working correctly. You can also use `npm run test:watch` to run the tests in watch mode, and `npm run test:coverage` to generate a coverage report.
 
+## Coding Standards
+
+To maintain code quality and consistency, please follow these guidelines:
+
+- Run `npm run format` to format code using Prettier.
+- Organize imports into clearly separated groups, following this order: React imports, third-party packages, app-level aliases, and local imports.
+- Arrange imports alphabetically by package name within each group to improve readability.
+
 ## Testing
 
 Please write tests for any new features or modifications to the project. Follow these steps to ensure your tests are effective and consistent:
