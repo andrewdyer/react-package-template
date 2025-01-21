@@ -17,6 +17,7 @@ This template is designed to provide a solid foundation to help you hit the grou
 Before you begin, ensure you have met the following requirements:
 
 - **Node.js**: Version 20.x (as specified in [.nvmrc](.nvmrc)) is required.
+- **npm**: Dependency management tool, version 9.x or higher.
 - **yalc** (optional): For local package development and testing.
 
 ## 🛠️ Features
