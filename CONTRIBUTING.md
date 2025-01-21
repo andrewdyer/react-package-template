@@ -23,16 +23,16 @@ To get started with contributing, set up the project by following these steps:
 
 Please write tests for any new features or modifications to the project. Follow these steps to ensure your tests are effective and consistent:
 
--   Use `npm run test` to run the tests.
--   Use `npm run test:watch` to run the tests in watch mode, which will re-run tests when files change.
--   Check coverage using `npm run test:coverage` to ensure all tests pass.
+- Use `npm run test` to run the tests.
+- Use `npm run test:watch` to run the tests in watch mode, which will re-run tests when files change.
+- Check coverage using `npm run test:coverage` to ensure all tests pass.
 
 For consistency and modularity, organize test code into structured sections:
 
--   Start by mocking dependencies or libraries.
--   Create helper functions to streamline repetitive logic.
--   Define constants for mock data or configurations.
--   Structure the main test suite using `describe` blocks and focused test cases.
+- Start by mocking dependencies or libraries.
+- Create helper functions to streamline repetitive logic.
+- Define constants for mock data or configurations.
+- Structure the main test suite using `describe` blocks and focused test cases.
 
 Ensure tests are clear, reusable, and easy to maintain before submitting changes.
 
