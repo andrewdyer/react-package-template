@@ -5,7 +5,12 @@ Thank you for your interest in contributing! We welcome improvements and suggest
 ## Table of Contents
 
 1. [Development Setup](#development-setup)
-2. [Using Yalc for Local Development](#using-yalc-for-local-development)
+2. [Coding Standards](#coding-standards)
+3. [Commit Guidelines](#commit-guidelines)
+4. [Testing](#testing)
+5. [Building](#building)
+6. [Local Development with Yalc](#local-development-with-yalc)
+7. [Publishing](#publishing)
 
 ## Development Setup
 
@@ -48,18 +53,6 @@ For consistency and modularity, organize test code into structured sections:
 
 Ensure tests are clear, reusable, and easy to maintain before submitting changes.
 
-## Using Yalc for Local Development
-
-Use Yalc to test this package locally in other projects without publishing it to the npm registry.
-
-1. Install Yalc globally using `npm install yalc -g`.
-2. In the target project's directory, add this package with `yalc add @your-scope/react-package-template`.
-3. Publish changes to the local Yalc store by running `npm run yalc:publish` in this package's directory.
-4. Push updates to the target project with `npm run yalc:push`, which notifies the target project of the latest changes.
-5. Alternatively, manually update the package in the target project with `yalc update @your-scope/react-package-template`.
-
-Follow these steps to ensure your changes work as expected before submitting them.
-
 ## Building
 
 Use the following commands as needed to build and preview the project:
@@ -70,6 +63,18 @@ Use the following commands as needed to build and preview the project:
     - Generate TypeScript declaration files with `npm run build:types`.
     - Clean the `dist/` folder to ensure a clean build with `npm run clean`.
 - Generate a static Storybook build with `npm run build:storybook`.
+
+## Local Development with Yalc
+
+Use Yalc to test this package locally in other projects without publishing it to the npm registry.
+
+1. Install Yalc globally using `npm install yalc -g`.
+2. In the target project's directory, add this package with `yalc add @your-scope/react-package-template`.
+3. Publish changes to the local Yalc store by running `npm run yalc:publish` in this package's directory.
+4. Push updates to the target project with `npm run yalc:push`, which notifies the target project of the latest changes.
+5. Alternatively, manually update the package in the target project with `yalc update @your-scope/react-package-template`.
+
+Follow these steps to ensure your changes work as expected before submitting them.
 
 ## Publishing
 
