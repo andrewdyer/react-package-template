@@ -27,6 +27,10 @@ To maintain code quality and consistency, please follow these guidelines:
 - Organize imports into clearly separated groups, following this order: React imports, third-party packages, app-level aliases, and local imports.
 - Arrange imports alphabetically by package name within each group to improve readability.
 
+## Commit Guidelines
+
+Use clear, descriptive commit messages following the [Conventional Commits](https://www.conventionalcommits.org/) format. Add emojis to quickly convey the type of change if desired, following [Git Commit Emoji](https://dev.andrewdyer.rocks/git-commit-emoji) conventions.
+
 ## Testing
 
 Please write tests for any new features or modifications to the project. Follow these steps to ensure your tests are effective and consistent:
