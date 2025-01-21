@@ -47,3 +47,14 @@ Use Yalc to test this package locally in other projects without publishing it to
 5. Alternatively, manually update the package in the target project with `yalc update @your-scope/react-package-template`.
 
 Follow these steps to ensure your changes work as expected before submitting them.
+
+## Building
+
+Use the following commands as needed to build and preview the project:
+
+- Build the project with `npm run build`, which generates CommonJS, ES Modules, as well as TypeScript declaration files in the `dist/` folder.
+    - Build CommonJS (CJS) modules for the project with `npm run build:cjs`.
+    - Build ES Modules (ESM) for the project with `npm run build:esm`.
+    - Generate TypeScript declaration files with `npm run build:types`.
+    - Clean the `dist/` folder to ensure a clean build with `npm run clean`.
+- Generate a static Storybook build with `npm run build:storybook`.
