@@ -6,12 +6,13 @@ Thank you for your interest in contributing! We welcome improvements and suggest
 
 1. [Code of Conduct](#code-of-conduct)
 2. [Development Setup](#development-setup)
-3. [Coding Standards](#coding-standards)
-4. [Commit Guidelines](#commit-guidelines)
-5. [Testing](#testing)
-6. [Building](#building)
-7. [Local Development with Yalc](#local-development-with-yalc)
-8. [Publishing](#publishing)
+3. [Upgrading Dependencies](#upgrading-dependencies)
+4. [Coding Standards](#coding-standards)
+5. [Commit Guidelines](#commit-guidelines)
+6. [Testing](#testing)
+7. [Building](#building)
+8. [Local Development with Yalc](#local-development-with-yalc)
+9. [Publishing](#publishing)
 
 ## Code of Conduct
 
@@ -28,6 +29,17 @@ To get started with contributing, set up the project by following these steps:
 3. Install all project dependencies to ensure a complete setup with `npm install`.
 4. Start Storybook using `npm run storybook` to develop and test UI components in isolation.
 5. Run tests with `npm test` to verify that the environment is working correctly. You can also use `npm run test:watch` to run the tests in watch mode, and `npm run test:coverage` to generate a coverage report.
+
+## Upgrading Dependencies
+
+Keeping dependencies up-to-date is crucial for maintaining the security and performance of the project. Follow these steps to upgrade dependencies:
+
+1. Check for outdated dependencies with `npm outdated`.
+2. Update dependencies using `npm update` or update a specific package with `npm install <package-name>@latest`.
+3. Ensure everything works after the upgrade by running the tests with `npm test`.
+4. Make sure the `package-lock.json` file is updated with the latest dependency versions by running `npm install`.
+5. Commit the changes to the repository with a clear commit message.
+6. Push the changes to your branch and create a pull request for review.
 
 ## Coding Standards
 
