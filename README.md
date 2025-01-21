@@ -12,6 +12,12 @@ Licensed under the [MIT license](https://opensource.org/licenses/MIT) and is fre
 
 This template is designed to provide a solid foundation to help you hit the ground running and save valuable time when starting a new React package. With all the necessary tools and configurations included, you can focus on building your package without worrying about the initial setup.
 
+## 📋 Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- **Node.js**: Version 20.x (as specified in [.nvmrc](.nvmrc)) is required.
+
 ## 🛠️ Features
 
 This template includes the following tools and configurations:
