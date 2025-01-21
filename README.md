@@ -28,6 +28,35 @@ This template includes the following tools and configurations:
 - [Storybook](https://storybook.js.org/) for building and testing UI components in isolation.
 - [Prettier](https://prettier.io/) for consistent code formatting across the codebase.
 
+## 🚀 Getting Started
+
+If you like what you've seen so far and think this setup fits your needs, you can quickly get started by clicking the **Use this template** button at the top of the repository on GitHub.
+
+### 🎬 Quick Start
+
+Once you've created your package, follow these steps to get up and running:
+
+1. **Clone Your Repository**
+
+    Clone your repository and navigate into the project directory:
+
+    ```bash
+    git clone https://github.com/YOUR_USERNAME/YOUR_PROJECT.git
+    cd YOUR_PROJECT
+    ```
+
+2. **Install Dependencies**
+
+    Ensure you have the [required tools](#-prerequisites) installed and then run:
+
+    ```bash
+    npm install
+    ```
+
+Now you can start building your package - happy coding! 🎉
+
+> 📝 Note: For a more in-depth setup guide, including details on running tests and Storybook, check out the [development setup](./CONTRIBUTING.md#development-setup) section in the contributing documentation.
+
 ## 🤝 Contributing
 
 Before contributing to this project, please refer to the [contributing](./CONTRIBUTING.md) documentation.
