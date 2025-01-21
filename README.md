@@ -29,7 +29,7 @@ This template includes the following tools and configurations:
 - [Storybook](https://storybook.js.org/) for building and testing UI components in isolation.
 - [Prettier](https://prettier.io/) for consistent code formatting across the codebase.
 - [Husky](https://typicode.github.io/husky/#/) for Git hooks to automate tasks such formatting and testing before commits.
-- CI (Continuous Integration) setup with [GitHub Actions](https://github.com/features/actions) for automated package publishing to npmjs.
+- CI (Continuous Integration) setup with [GitHub Actions](https://github.com/features/actions) for automated testing and publishing the package to npmjs.
 
 ## 🚀 Getting Started
 
