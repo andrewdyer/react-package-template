@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES5",
-    "jsx": "react",
+    "jsx": "react-jsx",
     "rootDir": "./src",
     "strict": true,
     "moduleResolution": "node",
