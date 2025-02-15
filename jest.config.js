@@ -15,5 +15,11 @@ module.exports = {
     '**/?(*.)+(spec|test).+(ts|tsx|js)',
   ],
   setupFilesAfterEnv: ['<rootDir>/src/setupTests.ts'],
-  testPathIgnorePatterns: ['/node_modules/', '/dist/'],
+  testPathIgnorePatterns: [
+    '/dist/',
+    '/node_modules/',
+    '/src/.*\\.d\\.ts',
+    '/src/.*/index\\.(js|jsx|ts|tsx)',
+    '/src/.*\\.stories\\.(js|jsx|ts|tsx)',
+  ],
 };
