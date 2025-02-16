@@ -1,18 +1,18 @@
 ![React Package Template](https://raw.githubusercontent.com/andrewdyer/andrewdyer/refs/heads/main/assets/images/covers/react-package-template.png)
 
-# 📦 React Package Template
+# React Package Template
 
 A template for creating [React](https://react.dev/) packages.
 
-## 📄 License
+## License
 
 Licensed under the [MIT license](https://opensource.org/licenses/MIT) and is free for private or commercial projects.
 
-## ✨ Introduction
+## Introduction
 
 This template is designed to provide a solid foundation to help you hit the ground running and save valuable time when starting a new React package. With all the necessary tools and configurations included, you can focus on building your package without worrying about the initial setup.
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
@@ -20,7 +20,7 @@ Before you begin, ensure you have met the following requirements:
 - **npm**: Dependency management tool, version 9.x or higher.
 - **yalc** (optional): For local package development and testing.
 
-## 🛠️ Features
+## Features
 
 This template includes the following tools and configurations:
 
@@ -31,11 +31,11 @@ This template includes the following tools and configurations:
 - [Husky](https://typicode.github.io/husky/#/) for Git hooks to automate tasks such as formatting, type-checking, and testing before commits.
 - CI (Continuous Integration) setup with [GitHub Actions](https://github.com/features/actions) for automated testing, building, type-checking, and publishing the package to npmjs.
 
-## 🚀 Getting Started
+## Getting Started
 
 If you like what you've seen so far and think this setup fits your needs, you can quickly get started by clicking the **Use this template** button at the top of the repository on GitHub.
 
-### 🎬 Quick Start
+### Quick Start
 
 Once you've created your package, follow these steps to get up and running:
 
@@ -56,10 +56,10 @@ Once you've created your package, follow these steps to get up and running:
    npm install
    ```
 
-Now you can start building your package - happy coding! 🎉
+Now you can start building your package - happy coding!
 
-> 📝 Note: For a more in-depth setup guide, including details on running tests and Storybook, check out the [development setup](./CONTRIBUTING.md#development-setup) section in the contributing documentation.
+> Note: For a more in-depth setup guide, including details on running tests and Storybook, check out the [development setup](./CONTRIBUTING.md#development-setup) section in the contributing documentation.
 
-## 🤝 Contributing
+## Contributing
 
 Before contributing to this package, please refer to the [contributing](./CONTRIBUTING.md) documentation.
