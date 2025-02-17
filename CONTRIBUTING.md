@@ -46,6 +46,7 @@ Keeping dependencies up-to-date is crucial for maintaining the security and perf
 To maintain code quality and consistency, please follow these guidelines:
 
 - Run `npm run format` to format code using Prettier.
+- Run `npm run type-check` to ensure there are no TypeScript type errors.
 - Organize imports into clearly separated groups, following this order: React imports, third-party packages, app-level aliases, and local imports.
 - Arrange imports alphabetically by package name within each group to improve readability.
 
