@@ -1,4 +1,4 @@
-module.exports = {
+const config = {
   preset: 'ts-jest',
   testEnvironment: 'jest-environment-jsdom',
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
@@ -23,3 +23,5 @@ module.exports = {
     '/src/.*\\.stories\\.(js|jsx|ts|tsx)',
   ],
 };
+
+export default config;
