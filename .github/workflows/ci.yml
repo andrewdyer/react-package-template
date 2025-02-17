@@ -14,6 +14,8 @@ jobs:
 
   test:
     uses: andrewdyer/github-workflows/.github/workflows/test.yml@main
+    needs: build
 
   typecheck:
     uses: andrewdyer/github-workflows/.github/workflows/type-check.yml@main
+    needs: build
