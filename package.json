@@ -1,22 +1,21 @@
 {
   "name": "react-package-template",
   "description": "A template for creating React packages",
+  "keywords": [
+    "react",
+    "package",
+    "template",
+    "typescript"
+  ],
+  "author": "Andrew Dyer (https://github.com/andrewdyer)",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewdyer/react-package-template.git"
+  },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/types/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/esm/index.js",
-      "require": "./dist/cjs/index.js",
-      "types": "./dist/types/index.d.ts"
-    },
-    "./components": {
-      "import": "./dist/esm/components/index.js",
-      "require": "./dist/cjs/components/index.js",
-      "types": "./dist/types/components/index.d.ts"
-    }
-  },
   "scripts": {
     "build:cjs": "tsc --project tsconfig.cjs.json",
     "build:esm": "tsc --project tsconfig.esm.json",
@@ -34,17 +33,6 @@
     "type-check": "tsc --noEmit",
     "yalc:publish": "yalc publish",
     "yalc:push": "yalc push"
-  },
-  "keywords": [
-    "react",
-    "package",
-    "template",
-    "typescript"
-  ],
-  "author": "Andrew Dyer (https://github.com/andrewdyer)",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/andrewdyer/react-package-template.git"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.9.0",
