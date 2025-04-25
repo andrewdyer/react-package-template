@@ -4,19 +4,15 @@ Thank you for your interest in contributing! We welcome improvements and suggest
 
 ## Table of Contents
 
-1. [Code of Conduct](#code-of-conduct)
-2. [Development Setup](#development-setup)
-3. [Upgrading Dependencies](#upgrading-dependencies)
-4. [Coding Standards](#coding-standards)
-5. [Commit Guidelines](#commit-guidelines)
-6. [Testing](#testing)
-7. [Building](#building)
-8. [Local Development with Yalc](#local-development-with-yalc)
-9. [Publishing](#publishing)
-
-## Code of Conduct
-
-Please adhere to our [Code of Conduct](./CODE_OF_CONDUCT.md) in all interactions. Respectful and inclusive behavior is expected from all contributors.
+- [Code of Conduct](#code-of-conduct)
+- [Development Setup](#development-setup)
+- [Upgrading Dependencies](#upgrading-dependencies)
+- [Coding Standards](#coding-standards)
+- [Commit Guidelines](#commit-guidelines)
+- [Testing](#testing)
+- [Building](#building)
+- [Local Development with Yalc](#local-development-with-yalc)
+- [Publishing](#publishing)
 
 ## Development Setup
 
