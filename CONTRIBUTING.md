@@ -4,7 +4,6 @@ Thank you for your interest in contributing! We welcome improvements and suggest
 
 ## Table of Contents
 
-- [Code of Conduct](#code-of-conduct)
 - [Development Setup](#development-setup)
 - [Upgrading Dependencies](#upgrading-dependencies)
 - [Coding Standards](#coding-standards)
