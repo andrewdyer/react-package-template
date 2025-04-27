@@ -1,4 +1,4 @@
-![React Package Template](https://raw.githubusercontent.com/andrewdyer/andrewdyer/refs/heads/main/assets/images/covers/react-package-template.png)
+![React Package Template](https://raw.githubusercontent.com/andrewdyer/public-assets/refs/heads/main/images/covers/react-package-template.png)
 
 # React Package Template
 
