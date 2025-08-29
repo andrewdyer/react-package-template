@@ -12,12 +12,12 @@ describe('Button', () => {
   });
 
   test('should call onClick when button is clicked', () => {
-    const onClick = jest.fn();
+    const onClick = vi.fn();
 
     render(<Button onClick={onClick} />);
 
     const buttonElement = screen.getByText(/Button/i);
-    buttonElement.click();
+    fireEvent.click(buttonElement);
 
     expect(onClick).toHaveBeenCalled();
   });
