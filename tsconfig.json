@@ -1,7 +1,17 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.lib.json" },
-    { "path": "./tsconfig.node.json" }
-  ]
+  "compilerOptions": {
+    "composite": true,
+    "lib": ["es2022", "dom"],
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "types": ["vite/client", "@testing-library/jest-dom"]
+  },
+  "include": ["src", "vite.config.ts"],
+  "exclude": ["dist", "node_modules"]
 }

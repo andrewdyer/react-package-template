@@ -1,22 +1,27 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import * as path from 'path';
 import dts from 'vite-plugin-dts';
 
 export default defineConfig({
   plugins: [
     react(),
     dts({
-      insertTypesEntry: true,
       entryRoot: 'src',
-      tsconfigPath: './tsconfig.node.json',
+      outDir: 'dist/types',
+      tsconfigPath: path.resolve(__dirname, 'tsconfig.build.json'),
+      insertTypesEntry: true,
+      copyDtsFiles: true,
     }),
   ],
   build: {
+    outDir: 'dist',
+    emptyOutDir: true,
     lib: {
-      entry: 'src/index.ts',
-      name: 'MyLib',
-      formats: ['es', 'cjs', 'umd'],
+      entry: path.resolve(__dirname, 'src/index.ts'),
+      name: 'react-package-template',
       fileName: (format) => `index.${format}.js`,
+      formats: ['es', 'cjs', 'umd'],
     },
     rollupOptions: {
       external: ['react', 'react-dom'],

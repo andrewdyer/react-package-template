@@ -9,23 +9,24 @@
   ],
   "author": "Andrew Dyer (https://github.com/andrewdyer)",
   "version": "1.0.0",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/andrewdyer/react-package-template.git"
   },
   "main": "./dist/index.cjs.js",
-  "types": "./dist/index.d.ts",
+  "types": "./dist/types/index.d.ts",
   "exports": {
     "./package.json": "./package.json",
     ".": {
-      "types": "./dist/index.d.ts",
+      "types": "./dist/types/index.d.ts",
       "import": "./dist/index.es.js",
       "require": "./dist/index.cjs.js",
       "default": "./dist/index.umd.js"
     }
   },
   "scripts": {
-    "build": "npm run clean && tsc -b && vite build",
+    "build": "npm run clean && vite build",
     "clean": "rimraf dist",
     "lint": "eslint .",
     "format": "prettier --write .",
