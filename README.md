@@ -24,7 +24,7 @@ Before you begin, ensure you have met the following requirements:
 
 This template includes the following tools and configurations:
 
-- [Vite](https://vitejs.dev/) for fast builds and modern bundling with multiple output formats (ESM, CJS, and UMD).
+- [Vite](https://vitejs.dev/) for fast builds and modern bundling with multiple output formats (ESM, CJS, and UMD), using [`@vitejs/plugin-react-swc`](https://www.npmjs.com/package/@vitejs/plugin-react-swc) for React support.
 - [TypeScript](https://www.typescriptlang.org/) for static type checking, with dedicated configurations for builds and development.
 - [Vitest](https://vitest.dev/) for unit testing, along with [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/), Vitest UI, and coverage reports.
 - [Storybook](https://storybook.js.org/) for building and testing UI components in isolation.
