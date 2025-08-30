@@ -19,6 +19,7 @@
   ],
   "scripts": {
     "build": "npm run clean && vite build",
+    "build:storybook": "storybook build",
     "clean": "rimraf dist",
     "lint": "eslint .",
     "format": "prettier --write .",
@@ -30,8 +31,7 @@
     "test:ui": "vitest --ui",
     "type-check": "tsc --noEmit",
     "yalc:publish": "yalc publish",
-    "yalc:push": "yalc push",
-    "build-storybook": "storybook build"
+    "yalc:push": "yalc push"
   },
   "peerDependencies": {
     "react": "^19.1.1",
